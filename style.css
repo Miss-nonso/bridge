@@ -12,15 +12,8 @@
   box-sizing: border-box;
 }
 body {
-  /* font-size: 62.5%; */
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /* background-image: linear-gradient(
-    to top right,
-    #1a1818f2 90%,
-    #040101f2 100%
-  ); */
-  /* background-image: url(https://media.istockphoto.com/id/1353780638/photo/colorful-blurred-background-made-with-gradient.jpg?s=612x612&w=0&k=20&c=O-ta5HPlhBE-uYXeCG4L1oypX0biskBaJomVRVtZn-o=); */
-  /* background-image: url(https://img.freepik.com/free-vector/abstract-background-with-colourful-music-notes-border_1048-18673.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696550400&semt=ais);*/
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,11 +36,6 @@ h3 {
 main {
   .header {
     & nav {
-      /* border-bottom: 0.3rem double lightgray; */
-      /* position: fixed;
-      top: 0;
-      right: 0;
-      left: 0; */
       background-color: transparent;
 
       color: #fff;
@@ -64,7 +52,6 @@ main {
 
       & .header__search {
         width: 30%;
-        /* border: 1px solid rgba(211, 211, 211, 0.845); */
         height: 70%;
         border-radius: 0.7rem;
 
@@ -117,7 +104,6 @@ main {
 
       & .header__hero__image {
         display: grid;
-        /* background-color: rebeccapurple; */
         border-radius: 0.4rem;
 
         place-items: center;
@@ -134,7 +120,6 @@ main {
         font-size: 1.4rem;
         text-align: center;
         color: #fff;
-        /* filter: grayscale(); */
         border-left: 1px ridge var(--texts);
         background-image: url(https://us.123rf.com/450wm/dominykas/dominykas1603/dominykas160300006/53262743-playing-piano-hands-on-piano-keyboard.jpg?ver=6);
       }
